@@ -26,6 +26,14 @@ This is an educational tool to help understand how blockchains work under the ho
 - Hash linking
 - Proof of Work (PoW)
 - Data immutability
+## Dependencies
+
+## Dependencies
+
+- This project uses the [Gson](https://github.com/google/gson) library to convert the blockchain data into a nicely formatted JSON string for display.
+- If you don’t want to use Gson, you can remove the related code that converts the blockchain to JSON and instead print the blocks manually.
+- To use Gson, download the `gson-<version>.jar` file and add it to your classpath when compiling and running.
+
 
 
 
